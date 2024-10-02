@@ -1,14 +1,15 @@
 import React from 'react';
 import Header from './components/Header';
-import NavBar from './components/Navbar';
-import MainContent from './components/MainContent';
+import Home from './Route/Home';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 
 const App: React.FC = () => {
   return (
     <div>
       <Header />
-      <NavBar />
-      <MainContent />
+      <Home />
+      
     </div>
   );
 };
