@@ -6,8 +6,8 @@ import MainContent from "../components/MainContent";
 const Home:React.FC =() => {
 return(
     <div>
+         <NavBar />
         <MainContent />
-        <NavBar />
     </div>
 );
 };

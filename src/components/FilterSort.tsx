@@ -43,11 +43,11 @@ const FilterSort: React.FC<FilterSortProps> = ({ onFilterChange, onSortChange })
                 <Dropdown.Item eventKey="Fabric">Fabric</Dropdown.Item>
                 <Dropdown.Item eventKey="Color">Color</Dropdown.Item>
 
-                {/* Sub-Dropdown for Category */}
-                <Dropdown.Divider />
+                Sub-Dropdown for Category
+                {/* <Dropdown.Divider />
                 <Dropdown.ItemText>Category Options</Dropdown.ItemText>
                 <Dropdown.Item eventKey="Male">Male</Dropdown.Item>
-                <Dropdown.Item eventKey="Female">Female</Dropdown.Item>
+                <Dropdown.Item eventKey="Female">Female</Dropdown.Item> */}
             </DropdownButton>
 
             {/* Sort Dropdown */}
